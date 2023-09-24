@@ -23,7 +23,7 @@ import javax.swing.JOptionPane;
             try {
                 Class.forName("org.mariadb.jdbc.Driver");
                 connection = DriverManager.getConnection(URL, USUARIO, PASSWORD);
-                JOptionPane.showMessageDialog(null, "Coneccion Exitosa");
+            //    JOptionPane.showMessageDialog(null, "Coneccion Exitosa");
                 
             } catch (ClassNotFoundException ex) {
                 JOptionPane.showMessageDialog(null, "Error al cargar el Driver"+ ex);

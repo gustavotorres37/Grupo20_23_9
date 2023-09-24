@@ -33,7 +33,7 @@ public class Inscripcion {
     }
 
     public void setIdIncripcion(int idInscripcion) {
-        this.idInscripcion = this.idInscripcion;
+        this.idInscripcion = idInscripcion;
     }
 
     public double getNota() {
